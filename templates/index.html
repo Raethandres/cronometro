@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CRONOMETRO</title>
+    
+    <!-- <script defer src="/__/firebase/4.6.0/firebase-app.js"></script>
+   
+    <script defer src="/__/firebase/4.6.0/firebase-auth.js"></script>
+    <script defer src="/__/firebase/4.6.0/firebase-database.js"></script>
+    <script defer src="/__/firebase/4.6.0/firebase-messaging.js"></script>
+    <script defer src="/__/firebase/4.6.0/firebase-storage.js"></script>
+    
+    <script defer src="/__/firebase/init.js"></script>
+ -->
+    
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/style.css')}}">
+    <!-- <link rel="stylesheet" type="text/css" href="../css/style.css"> -->
+    
+  </head>
+  <body>
+    <div id="butons" >
+       <a class="end" href="/show" time>
+          send
+      </a>
+      <p class="start">
+        start
+      </p>
+
+     
+      
+    </div>
+    <div id="contenedor">
+       <!--  <br><div id="c0" class="c"> <p class="reloj" id="Minutos">00</p><p class= "reloj">:</p><p class="reloj" id="Segundos">00</p><p class="reloj">:</p><p class="reloj" id="Centesimas">00</p> <p class="stop">stop</p> </div>;
+     -->
+    </div>
+    <script id="e" type="text/javascript" src="{{ url_for('static',filename='js/Concurrent.Thread.Compiler+Http.js')}}"></script>
+    <script id="j" type="text/javascript" src="{{ url_for('static',filename='js/jquery-3.2.1.min.js')}}"></script>
+    
+    <script type="text/javascript" src="{{ url_for('static',filename='js/actions.js')}}"></script>
+
+    <!-- <script type="text/javascript" src="../js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="../js/Concurrent.Thread.Compiler+Http.js"></script>
+    <script type="text/javascript" src="../js/actions.js"></script>
+ -->
+  <!-- </body> -->
+</html>
